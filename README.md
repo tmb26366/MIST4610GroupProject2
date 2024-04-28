@@ -30,8 +30,6 @@ This visualization shows the average/moving average of sale price vs assessed va
 
 ![visualization two](https://i.ibb.co/nDCH5G3/graph2.png)
 
-<a href="https://ibb.co/cg0mHJV"><img src="https://i.ibb.co/f1fc5ML/graph1.png" alt="graph1" border="0"></a>
-<a href="https://ibb.co/BgNXSp4"><img src="https://i.ibb.co/nDCH5G3/graph2.png" alt="graph2" border="0"></a>
 This visualization shows the average/moving average of sale price vs assessed value, or the Premium paid, of the initially excluded properties, including condos, apartments, industrial and commercial, and private sales of properties in Connecticut across 2001-2021. This is indicative of the state of the housing market, as you are able to see the premium on these varying property types’ prices depending on the year and state of the real estate market. This is indicative of the premiums on the entire real estate market, and shows that they had similar trends and lower premiums than residential homes over certain periods.
 
 ## Manupulations applied to the data set for analysis:

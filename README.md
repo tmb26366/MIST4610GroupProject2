@@ -32,7 +32,7 @@ This visualization shows the average/moving average of sale price vs assessed va
 
 This visualization shows the average/moving average of sale price vs assessed value, or the Premium paid, of the initially excluded properties, including condos, apartments, industrial and commercial, and private sales of properties in Connecticut across 2001-2021. This is indicative of the state of the housing market, as you are able to see the premium on these varying property types’ prices depending on the year and state of the real estate market. This is indicative of the premiums on the entire real estate market, and shows that they had similar trends and lower premiums than residential homes over certain periods.
 
-## Manupulations applied to the data set for analysis:
+## Manipulations applied to the data set for analysis:
 
 The calculations we made on our raw data to produce meaningful visualizations include a calculated field for Premiums paid on homes, which was calculated with (sale value - assessed value). We also filtered out assessor remarks, which is when a sale is not between a willing buyer and seller, is run down, unlivable, destroyed, flooded, with widows, includes wills, warranties, and foreclosures. We placed an additional filter on property type so we could distinguish trends regarding residential homes and other property types. There was another filter on OPM remarks to filter out incorrect sales prices due to private sales and duplicate entries, along with sales made well below market which were suspicious. This left us with valuable data we could analyze. 
 For the second visualization, we filtered the foreclosure data to filter out Non Use Codes 18 & 19, a filter on the bankruptcy non use code 13, and Filtered out all instances of private/partial sales to include on public sales. We also filtered the years to include 2006-2010 to focus on the time following the financial crisis. For the visualization comparing the foreclosures of the housing crisis vs the COVID-19 pandemic, we included all years in the dataset (2001-2021) and focused on the periods from 2006-1010 and 2019-2021.
@@ -53,7 +53,7 @@ The financial and housing market crisis had a significant impact on the number o
 
 This bar graph shows the number of home foreclosures in Connecticut from 2001-2021, specifically highlighting the housing market crisis (2006-2011) and the COVID-19 pandemic (2019-2021). This bar graph demonstrates the economic effect that the relief efforts the government put in place had during a time of similar economic crisis. Both periods had many people lose their jobs and find themselves in a position unable to pay rent or mortgage. However, the government provided stimulus checks and a freeze on rent and mortgage payments for up to 18 months during the pandemic to prevent a similar case of mass foreclosure like they had in the housing market crisis. You can see how this dramatically reduced foreclosures in 2020 and 2021, to less than half the amount the previous year in 2019.
 
-## Manupulations applied to the data set for analysis:
+## Manipulations applied to the data set for analysis:
 
 For the second visualization, we manipulated the data to get number of foreclosures by filtering Non Use Code where = 18 & 19, a filter on the bankruptcy non use code where it = 13, and filtered out all instances of private/partial sales to include on public sales.
 

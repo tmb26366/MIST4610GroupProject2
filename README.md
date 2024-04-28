@@ -35,7 +35,6 @@ This visualization shows the average/moving average of sale price vs assessed va
 ## Manipulations applied to the data set for analysis:
 
 The calculations we made on our raw data to produce meaningful visualizations include a calculated field for Premiums paid on homes, which was calculated with (sale value - assessed value). We also filtered out assessor remarks, which is when a sale is not between a willing buyer and seller, is run down, unlivable, destroyed, flooded, with widows, includes wills, warranties, and foreclosures. We placed an additional filter on property type so we could distinguish trends regarding residential homes and other property types. There was another filter on OPM remarks to filter out incorrect sales prices due to private sales and duplicate entries, along with sales made well below market which were suspicious. This left us with valuable data we could analyze. 
-For the second visualization, we filtered the foreclosure data to filter out Non Use Codes 18 & 19, a filter on the bankruptcy non use code 13, and Filtered out all instances of private/partial sales to include on public sales. We also filtered the years to include 2006-2010 to focus on the time following the financial crisis. For the visualization comparing the foreclosures of the housing crisis vs the COVID-19 pandemic, we included all years in the dataset (2001-2021) and focused on the periods from 2006-1010 and 2019-2021.
 
 ## Question 2:
 

@@ -34,7 +34,8 @@ This visualization shows the average/moving average of sale price vs assessed va
 
 ## Manupulations applied to the data set for analysis:
 
-1st dataset manipulations.
+The calculations we made on our raw data to produce meaningful visualizations include a calculated field for Premiums paid on homes, which was calculated with (sale value - assessed value). We also filtered out assessor remarks, which is when a sale is not between a willing buyer and seller, is run down, unlivable, destroyed, flooded, with widows, includes wills, warranties, and foreclosures. We placed an additional filter on property type so we could distinguish trends regarding residential homes and other property types. There was another filter on OPM remarks to filter out incorrect sales prices due to private sales and duplicate entries, along with sales made well below market which were suspicious. This left us with valuable data we could analyze. 
+For the second visualization, we filtered the foreclosure data to filter out Non Use Codes 18 & 19, a filter on the bankruptcy non use code 13, and Filtered out all instances of private/partial sales to include on public sales. We also filtered the years to include 2006-2010 to focus on the time following the financial crisis. For the visualization comparing the foreclosures of the housing crisis vs the COVID-19 pandemic, we included all years in the dataset (2001-2021) and focused on the periods from 2006-1010 and 2019-2021.
 
 ## Question 2:
 
@@ -46,7 +47,7 @@ This question is important because it offers insights into the resilience and ad
 
 ![visualization one](https://i.ibb.co/NWbWwZ4/q2graph1.png)
 
-The financial and housing market crisis had a significant impact on the number of sales, foreclosures, and files for bankruptcy in Connecticut over the years of 2005-2012.  Over the years of 2006-2009, there is a significant increase in home foreclosures, which came due to people being unable to pay their mortgages. The number of public home sales sharply increased before the housing market crash, then rapidly fell at the beginning of the crash in 2006. This rise in home sales was what caused the crash, as banks were handing out loans to people with unqualified credit, which then caused the massive sale on all these homes when they were unable to pay their mortgages, starting around 2005. From the year 2007 until 2009, there is an extreme increase in bankruptcy related real estate transactions in the state of Connecticut among homeowners. These trends are representative of the state of the housing market and economy at this time to show their relevance in teaching the state of the markets in Connecticu. 
+The financial and housing market crisis had a significant impact on the number of sales, foreclosures, and files for bankruptcy in Connecticut over the years of 2005-2012.  Over the years of 2006-2009, there is a significant increase in home foreclosures, which came due to people being unable to pay their mortgages. The number of public home sales sharply increased before the housing market crash, then rapidly fell at the beginning of the crash in 2006. This rise in home sales was what caused the crash, as banks were handing out loans to people with unqualified credit, which then caused the massive sale on all these homes when they were unable to pay their mortgages, starting around 2005. From the year 2007 until 2009, there is an extreme increase in bankruptcy related real estate transactions in the state of Connecticut among homeowners. These trends are representative of the state of the housing market and economy at this time to show their relevance in teaching the state of the markets in Connecticut. 
 
 ![visualization two](https://i.ibb.co/xq06LSz/q2graph2.png)
 
